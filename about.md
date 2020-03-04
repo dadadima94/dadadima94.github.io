@@ -1,46 +1,20 @@
 ---
-title: About
-layout: page
+title: My Short Bio
+layout: page-md
+picture: assets/images/1773069.jpeg
 ---
-![Profile Image]({{ site.url }}/{{ site.picture }})
+![Profile Image]({{ site.url }}/{{ page.picture }}){: .center-image }
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+**Update: I will start my Ph.D. studies in the [Distributed Computing Group](https://dcatkth.github.io) of KTH in September 2019.**
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+I'm a second-year master student of Data Science, interested in machine learning, deep learning, distributed systems, and Big Data analytics. I spent my first year of master studies at Eindhoven University of Technology (TU/e) as part of the EIT Digital Master School program. Prior to that, I was a Big Data R&D Engineer at Digikala.com (2016-2017), where I was in charge of the design, development, and implementation of Digikala.com's Big Data Analytics stack and services.
 
-<h2>Skills</h2>
+I did my Bachelor of Science in Computer Software Engineering at Amirkabir University of Technology (Tehran Polytechnic). My Bachelor thesis was titled "SDMiner: A Tool for Mining Data Streams on Top of Apache Spark" for which I worked under the supervision of [Amir Payberah](https://www.kth.se/profile/payberah).
 
-<ul class="skill-list">
-	<li>HTML - Jade - Haml - Erb</li>
-	<li>Responsive (Mobile First)</li>
-	<li>CSS (Stylus, Sass, Less)</li>
-	<li>Css Frameworks (Bootstrap, Foundation)</li>
-	<li>Javascript (Design Patterns, Testes)</li>
-	<li>NodeJS</li>
-	<li>AngularJS - ReactJS</li>
-	<li>Grunt - Gulp - Yeoman</li>
-	<li>Git</li>
-	<li>PHP</li>
-	<li>Python</li>
-	<li>MySQL - MongoDB</li>
-	<li>Scrum and Kanban</li>
-	<li>TDD e Continuous Integration</li>
-</ul>
+I was also the President of Student Scientific Chapter of the CEIT Department of Tehran Polytechnic from January 2014 to March 2015 during which we held more than 50 national and international events, competitions, and seminars, and won numerous national awards.
 
-<h2>Projects</h2>
+Right now, I'm doing my master thesis as a Research Intern at RISE SICS and Logical Clocks where I'm being advised by [Jim Dowling](https://www.kth.se/profile/jdowling). I'm working on automated machine learning and deep learning, with a focus on [automatic hyperparameter tuning methods](../automatic-hyperparameter-tuning-thesis-intro/).
 
-<ul>
-	<li><a href="https://github.com/">Lorem Lorem</a></li>
-	<li><a href="https://github.com/">Ipsum Dolor</a></li>
-	<li><a href="https://github.com/">Dolor Lorem</a></li>
-</ul>
+Besides technical aspects of machine learning and deep learning, I'm very interested in applications of these technologies for solving global challenges (such as fighting global warming, protecting endangered bee species, and alleviating the global hunger crisis). I also have a great interest in ethical and safety aspects of artificial intelligence.
+
+On weekends, however, I'm the producer and host of [The Sinash Show](http://sinash.ir/radio/player.html), a live music podcast that has been running since 2012. You can find more info about the show on our [Telegram Channel](https://t.me/TheSinashShow), our [Facebook page](https://fb.com/TheSinashShow), our [Instagram page](https://instagram.com/TheSinashShow), or our [Mixcloud profile](https://mixcloud.com/TheSinashShow). 
