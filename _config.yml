@@ -1,14 +1,14 @@
 # main text of home
-name: Sina Sheikholeslami
-bio: 
+name: Davide Di Matteo 
+bio: ...but everyone calls me Dima
 
 # twitter summary info
-description: Sina's personal website - news, blog, and related stuff.
+description: Dima's personal website - news, blog, and related stuff.
 
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: assets/images/profile-alumnimeetup2018.jpg
+picture: profile.jpg
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
@@ -16,13 +16,13 @@ resume: true
 resume-external: false
 resume-url: resume
 
-url: https://ssheikholeslami.github.io
+url: https://dadadima94.github.io
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
 
 # To enable google analytics, supply your token below
-analytics-google: 'UA-134215247-1'
+analytics-google: 'UA-159668637-1'
 
 # To enable piwik tracking, supply your url & site ID below
 # analytics-piwik-url: 'piwik.my-host.com'
@@ -30,36 +30,36 @@ analytics-google: 'UA-134215247-1'
 
 # if you don't want comments in your posts, leave categories empty
 disqus:
-  shortname: ssheikholeslami # enter this from your disqus account
+  shortname: dadadima94 # enter this from your disqus account
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-#facebook: myfacebook
-twitter: cutlash
+facebook: davide.dimaa
+# twitter: cutlash
 # google: mygoogle
-instagram: sina_sheikh
+# instagram: sina_sheikh
 # pinterest: mypinterest
-linkedin: sinasheikholeslami
+linkedin: davide-dimatteo
 # youtube: myyoutube
 # spotify: myspotify
-github: ssheikholeslami
+github: dadadima94
 # gitlab: mygitlab
 # lastfm: mylastfm
 # stackoverflow: 7044681/mystackoverflow
 # quora: userquora
-# reddit: username
+reddit: dadadima94
 # medium: medium
 # vimeo: myvimeo
 # lanyrd: mylanyrd
-email: ssheikholeslami@gmail.com
+email: davidee.dima@gmail.com
 
 authors:
     sinash:
-        name: Sina Sheikholeslami
+        name: Davide Di Matteo
         bio: 
         external-image: false
-        picture: assets/images/profile-alumnimeetup2018.jpg
-        twitter: cutlash
+        picture: assets/images/profile.jpg
+        email: davidee.dima@gmail.com
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
