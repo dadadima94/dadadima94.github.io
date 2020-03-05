@@ -1,7 +1,7 @@
 title: "Master Thesis: Log Analytics"
 layout: post
 date: 2020-03-04 21:00
-image: /assets/images/markdown.jpg
+image: /assets/images/logs.png
 headerImage: false
 tag:
 - Master Thesis
