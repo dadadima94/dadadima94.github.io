@@ -2,7 +2,7 @@
 title: "Master Thesis: Log Analytics"
 layout: post
 date: 2020-03-04 21:00
-image: /assets/images/logs.png
+picture: /assets/images/timeline.png
 headerImage: false
 tag:
 - Master Thesis
@@ -24,7 +24,7 @@ description: General Information and Current Status of my Master Thesis Project
 - [Research Question](#research-question)
 - [Current Status](#current-status)
 - [Future Steps](#future-steps)
-- [Timeplan](#timeplan)
+- [Timeline](#timeline)
 ---
 
 ## Introduction
@@ -58,7 +58,7 @@ Once the logs are ingested correctly, I will perform anomaly detection on them u
 
 ## Timeline 
 Here's a draft of what my timeline will look like.
-![timeline](assets/images/timeline.jpg)
+![timeline]({{ site.url }}/{{ page.picture }}){: .center-image }
 
 
 
