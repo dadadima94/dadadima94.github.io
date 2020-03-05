@@ -10,10 +10,10 @@ tag:
 - Log Anlytics
 - Anomaly Detection
 - Elastic Stack
-projects: false
+projects: true
 category: blog
 author: dima
-description: General information and current status of my Master Thesis Project
+description: General Information and Current Status of my Master Thesis Project
 ---
 
 ## Summary:
