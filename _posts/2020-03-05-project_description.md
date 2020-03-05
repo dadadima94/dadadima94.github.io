@@ -10,7 +10,7 @@ tag:
 - Anomaly Detection
 - Elastic Stack
 category: blog
-author: Dima
+author: dima
 description: General information and current status of my Master Thesis Project
 ---
 
