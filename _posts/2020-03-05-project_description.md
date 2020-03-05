@@ -2,7 +2,7 @@
 title: "Master Thesis: Log Analytics"
 layout: post
 date: 2020-03-04 21:00
-picture: /assets/images/timeline.png
+picture: /assets/images/timeline.jpg
 headerImage: false
 tag:
 - Master Thesis
@@ -57,8 +57,7 @@ At the moment, I have set up the Elastic Stack on the cluster and I am collectin
 Once the logs are ingested correctly, I will perform anomaly detection on them using the Elastic Stack, trying different aggregation and approaches. After that, I will try a couple of implementation in Spark and I will benchmark them using the NAB.
 
 ## Timeline 
-Here's a draft of what my timeline will look like.
-![timeline]({{ site.url }}/{{ page.picture }}){: .center-image }
+![Here's a draft of what my timeline will look like.]({{ site.url }}/{{ page.picture }}){: .center-image }
 
 
 
