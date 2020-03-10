@@ -39,20 +39,20 @@ So how to analyze all the transactions happened in a distributed system effectiv
 This is the place where distributed log management envirornments, like the [Elastic Stack](https://www.elastic.co/what-is/elk-stack), come into play. Log management platforms can monitor all the issues just mentioned as well as process operating system logs, application logs, server logs, and many more.
 
 ## Project Description
-The main scope of my project is to collect logs from different production environments in Elasticsearch and apply the anomaly detection algorithm included in the elastic stack to perform log analytics. Therefore, below there is a list of what my engineering tasks look like:
+The main scope of my project is to collect logs from different Internet of Things (IoT) environments in Elasticsearch and apply the anomaly detection algorithm included in the elastic stack to perform log analytics. Therefore, below there is a list of what my engineering tasks look like:
 
 1. setup Elasticsearch, Kibana, and Logstash on Azure
-2. gather server logs most likely using Azure logging service and Logstash/Beats from the Elastic Stack
+2. gather IoT logs most likely using Azure logging service and Logstash/Beats from the Elastic Stack
 3. cleaning and preprocessing of that data (to be done in Logstash)
 4. building service dashboard in Kibana
 5. run real-time anomaly detection built-in Elasticsearch and present the result in the dashboard from the previous point
 6. creation of a labeled dataset of anomalies in the system (this will be achieved only if time permits)
 
 ## Research Question
-This Master Thesis will address the problem of finding an Anomaly Detection solution on server logs better (or good enough) compared to the one integrated Elastic Stack. The other approaches will tried on Spark, by implementing a few different simple real-time anomaly detection algorithms. After that, the quality and the responsiveness of the prediction(s) of all of them will be assessed using the [Numenta benchmark (NAB)](https://numenta.com/machine-intelligence-technology/numenta-anomaly-benchmark/) as a reference. More specifically, this study will focus on comparing the two approaches (Elastic Stack and Spark) as a whole for the specific task of Anomaly Detection.
+This Master Thesis will address the problem of finding an Anomaly Detection solution on IoT logs better (or good enough) compared to the one integrated Elastic Stack. The other approaches will tried on Spark, by implementing a few different simple real-time anomaly detection algorithms. After that, the quality and the responsiveness of the prediction(s) of all of them will be assessed using the [Numenta benchmark (NAB)](https://numenta.com/machine-intelligence-technology/numenta-anomaly-benchmark/) as a reference. More specifically, this study will focus on comparing the two approaches (Elastic Stack and Spark) as a whole for the specific task of Anomaly Detection.
 
 ## Current Status
-At the moment, I have set up the Elastic Stack on the cluster and I am collecting, processing and ingesting system logs for testing purposes. I played around and explored Kibana and the Elasticsearch APIs. I have started to write a script to process the server logs I will use in my research and I am looking at possible anomalies in the data in order to understand what I  should look for. In parallel, I am conducting literature research on the topic of Log Analytics and Anomaly Detection.
+At the moment, I have set up the Elastic Stack on the cluster and I am collecting, processing and ingesting system logs for testing purposes. I played around and explored Kibana and the Elasticsearch APIs. I have started to write a script to process the IoT logs I will use in my research and I am looking at possible anomalies in the data in order to understand what I  should look for. In parallel, I am conducting literature research on the topic of Log Analytics and Anomaly Detection.
 
 ## Future Steps
 Once the logs are ingested correctly, I will perform anomaly detection on them using the Elastic Stack, trying different aggregation and approaches. After that, I will try a couple of implementation in Spark and I will benchmark them using the NAB.
