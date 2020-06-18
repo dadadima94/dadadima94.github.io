@@ -29,7 +29,7 @@ description: General Information and Current Status of my Master Thesis Project
 ---
 
 ## Introduction
-An important part of a Master Degree at KTH is the final thesis and I am working on it under the academic supervision of [Sina Sheikholeslami](https://www.kth.se/profile/sinash). My work is conducted in close cooperation with the Data Science Team of Electrolux, which interned me as a Master Thesis Student in Data Science and Engineerig. Here, I am supervised by [Martin Neumann](https://se.linkedin.com/in/consultmartinneumann) throughout my research. The final examiner is [Amir Payberah](https://www.kth.se/profile/payberah). I want also to thank [Stephanie Nissen](https://www.linkedin.com/in/stephanie-nissen-9a8a5928/), who is helping me by providing me useful information and a free student license of the Elastic Stack.
+An important part of a Master Degree at KTH is the final thesis and I am working on it under the academic supervision of [Sina Sheikholeslami](https://www.kth.se/profile/sinash). My work is conducted in close cooperation with the Data Science Team of Electrolux, which I am part of since January 2020, performing tasks between Data Science and Data Engineerig. Here, I am supervised by [Martin Neumann](https://se.linkedin.com/in/consultmartinneumann) throughout my research. The final examiner is [Amir Payberah](https://www.kth.se/profile/payberah). I want also to thank [Stephanie Nissen](https://www.linkedin.com/in/stephanie-nissen-9a8a5928/), who is helping me by providing me useful information and a free student license of the Elastic Stack.
 
 ## Background
 With the introduction of microservices and cloud-based technologies, we have been able to find solutions for lots of problems which allow us to make stable distributed applications around the world, but this comes at a cost!
@@ -39,7 +39,7 @@ So how to analyze all the transactions happened in a distributed system effectiv
 This is the place where distributed log management envirornments, like the [Elastic Stack](https://www.elastic.co/what-is/elk-stack), come into play. Log management platforms can monitor all the issues just mentioned as well as process operating system logs, application logs, server logs, and many more.
 
 ## Project Description
-The main scope of my project is to collect logs from different Internet of Things (IoT) environments in Elasticsearch and apply the anomaly detection algorithm included in the elastic stack to perform log analytics. Therefore, below there is a list of what my engineering tasks look like:
+The main goal of my Thesis is to extend a 
 
 1. setup Elasticsearch, Kibana, and Logstash on Azure
 2. gather IoT logs most likely using Azure logging service and Logstash/Beats from the Elastic Stack
